@@ -1,6 +1,6 @@
 # 📘 Módulo 07 --- Segurança SQL Server
 
-------------------------------------------------------------------------
+---
 
 # 📌 Contexto do Módulo
 
@@ -16,29 +16,29 @@ Os laboratórios desenvolvidos neste módulo representam cenários reais
 envolvendo administração de usuários, monitoramento de alterações,
 auditoria de eventos e proteção de dados sensíveis.
 
-------------------------------------------------------------------------
+---
 
 # 🎯 Objetivo
 
 Desenvolver conhecimentos práticos relacionados a:
 
--   Administração de Logins e Users
--   Server Roles e Database Roles
--   Controle de permissões
--   Auditoria de eventos
--   Auditoria através de Triggers
--   SQL Server Audit
--   Histórico de alterações
--   Temporal Tables
--   Ledger
--   Criptografia de dados
--   Dynamic Data Masking
+- Administração de Logins e Users
+- Server Roles e Database Roles
+- Controle de permissões
+- Auditoria de eventos
+- Auditoria através de Triggers
+- SQL Server Audit
+- Histórico de alterações
+- Temporal Tables
+- Ledger
+- Criptografia de dados
+- Dynamic Data Masking
 
-------------------------------------------------------------------------
+---
 
 # 📂 Estrutura do Módulo
 
-``` bash
+```bash
 modulo-07-seguranca/
 │
 ├── PDFs/
@@ -78,7 +78,7 @@ modulo-07-seguranca/
 └── README.md
 ```
 
-------------------------------------------------------------------------
+---
 
 # 🧠 Conceitos Abordados
 
@@ -88,12 +88,12 @@ Foram estudados os mecanismos de autenticação da instância SQL Server.
 
 Conceitos abordados:
 
--   Criação de Logins
--   Gerenciamento de acesso à instância
--   Server Roles
--   Controle de privilégios administrativos
+- Criação de Logins
+- Gerenciamento de acesso à instância
+- Server Roles
+- Controle de privilégios administrativos
 
-------------------------------------------------------------------------
+---
 
 ## 🔹 Usuários e Database Roles
 
@@ -109,17 +109,17 @@ Estrutura:
 
 Foram aplicados conceitos de:
 
--   Criação de usuários
--   Associação com bancos
--   Organização de permissões através de roles
+- Criação de usuários
+- Associação com bancos
+- Organização de permissões através de roles
 
-------------------------------------------------------------------------
+---
 
 ## 🔹 Permissões
 
 Foram aplicados comandos de controle de acesso:
 
-``` sql
+```sql
 GRANT
 DENY
 REVOKE
@@ -127,12 +127,12 @@ REVOKE
 
 Utilizados para controlar acesso a objetos como:
 
--   tabelas
--   views
--   procedures
--   recursos do banco
+- tabelas
+- views
+- procedures
+- recursos do banco
 
-------------------------------------------------------------------------
+---
 
 ## 🔹 Auditoria com Default Trace
 
@@ -142,11 +142,11 @@ O recurso permite investigar alterações realizadas no ambiente.
 
 Foram analisados eventos como:
 
--   criação de objetos
--   alterações administrativas
--   ações realizadas por usuários
+- criação de objetos
+- alterações administrativas
+- ações realizadas por usuários
 
-------------------------------------------------------------------------
+---
 
 ## 🔹 Auditoria com Triggers
 
@@ -158,9 +158,9 @@ Tipos abordados:
 
 Monitoramento de alterações estruturais:
 
--   CREATE
--   ALTER
--   DROP
+- CREATE
+- ALTER
+- DROP
 
 ### LOGON
 
@@ -170,11 +170,11 @@ Monitoramento de conexões realizadas na instância.
 
 Auditoria de alterações nos dados:
 
--   INSERT
--   UPDATE
--   DELETE
+- INSERT
+- UPDATE
+- DELETE
 
-------------------------------------------------------------------------
+---
 
 ## 🔹 SQL Server Audit
 
@@ -182,11 +182,11 @@ Implementação do recurso nativo de auditoria do SQL Server.
 
 Utilizado para:
 
--   registrar eventos
--   identificar usuários
--   acompanhar ações realizadas no ambiente
+- registrar eventos
+- identificar usuários
+- acompanhar ações realizadas no ambiente
 
-------------------------------------------------------------------------
+---
 
 ## 🔹 Temporal Tables
 
@@ -194,11 +194,11 @@ Foi estudado o versionamento automático de dados.
 
 Aplicações:
 
--   histórico de alterações
--   consulta de dados em determinado momento
--   rastreabilidade
+- histórico de alterações
+- consulta de dados em determinado momento
+- rastreabilidade
 
-------------------------------------------------------------------------
+---
 
 ## 🔹 Ledger
 
@@ -206,23 +206,23 @@ Implementação de auditoria com integridade criptográfica.
 
 Objetivos:
 
--   garantir confiabilidade do histórico
--   proteger registros contra alterações indevidas
+- garantir confiabilidade do histórico
+- proteger registros contra alterações indevidas
 
-------------------------------------------------------------------------
+---
 
 ## 🔹 Criptografia
 
 Foram aplicados conceitos de proteção de dados utilizando:
 
--   Master Key
--   Certificados
--   Chaves simétricas
--   AES
--   EncryptByKey
--   DecryptByKey
+- Master Key
+- Certificados
+- Chaves simétricas
+- AES
+- EncryptByKey
+- DecryptByKey
 
-------------------------------------------------------------------------
+---
 
 ## 🔹 Dynamic Data Masking
 
@@ -231,12 +231,12 @@ sensíveis.
 
 Exemplos:
 
--   CPF
--   Email
--   Telefone
--   Dados pessoais
+- CPF
+- Email
+- Telefone
+- Dados pessoais
 
-------------------------------------------------------------------------
+---
 
 # 📸 Evidências Práticas
 
@@ -244,85 +244,85 @@ Exemplos:
 
 ![Logins e Server Roles](Imagens/01_01_logins_e_server_roles.png)
 
-------------------------------------------------------------------------
+---
 
 ## 🔹 Usuários e Database Roles
 
 ![Usuários e Roles](Imagens/02_01_usuarios_bd_e_database_roles.png)
 
-------------------------------------------------------------------------
+---
 
 ## 🔹 Permissões
 
 ![Permissões](Imagens/03_01_permissoes.png)
 
-------------------------------------------------------------------------
+---
 
 ## 🔹 Auditoria SQL Server
 
-![Default Trace](Imagens/06_01_default_trace.png)
+![Default Trace](Imagens/08_01_default_trace.png)
 
-![Trigger DDL](Imagens/07_01_auditoria_trigger_ddl.png)
+![Trigger DDL](Imagens/10_01_auditoria_trigger_ddl_banco.png)
 
-![Trigger LOGON](Imagens/08_01_auditoria_trigger_logon.png)
+![Trigger LOGON](Imagens/10_01_auditoria_trigger_logon_sa.png)
 
-![Trigger DML](Imagens/09_01_auditoria_trigger_dml.png)
+![Trigger DML](Imagens/12_01_auditoria_trigger_dml.png)
 
-------------------------------------------------------------------------
+---
 
 ## 🔹 SQL Server Audit
 
-![SQL Server Audit](Imagens/10_01_server_audit.png)
+![SQL Server Audit](Imagens/14_01_server_audit.png)
 
-------------------------------------------------------------------------
+---
 
 ## 🔹 Histórico de Dados
 
-![Temporal Table](Imagens/11_01_temporal_table.png)
+![Temporal Table](Imagens/15_01_temporal_table.png)
 
-![Ledger](Imagens/12_01_ledger.png)
+![Ledger](Imagens/16_01_ledger.png)
 
-------------------------------------------------------------------------
+---
 
 ## 🔹 Proteção de Dados
 
-![Criptografia](Imagens/13_01_criptografia.png)
+![Criptografia](Imagens/17_01_criptografia_de_dados.png)
 
-![Dynamic Data Masking](Imagens/14_01_dynamic_data_masking.png)
+![Dynamic Data Masking](Imagens/18_01_dynamic_data_masking.png)
 
-------------------------------------------------------------------------
+---
 
 # 🧪 Aplicação Prática (Visão DBA)
 
 Os cenários executados neste módulo representam atividades realizadas
 por DBAs em ambientes corporativos:
 
--   gerenciamento de acessos
--   controle de privilégios
--   auditoria de alterações
--   investigação de eventos
--   proteção de informações sensíveis
--   rastreamento de histórico
--   segurança de dados
+- gerenciamento de acessos
+- controle de privilégios
+- auditoria de alterações
+- investigação de eventos
+- proteção de informações sensíveis
+- rastreamento de histórico
+- segurança de dados
 
-------------------------------------------------------------------------
+---
 
 # 📚 Aprendizados
 
 Ao final deste módulo foi possível desenvolver conhecimentos em:
 
--   segurança SQL Server
--   autenticação e autorização
--   permissões
--   auditoria
--   triggers
--   SQL Server Audit
--   Temporal Tables
--   Ledger
--   criptografia
--   mascaramento de dados
+- segurança SQL Server
+- autenticação e autorização
+- permissões
+- auditoria
+- triggers
+- SQL Server Audit
+- Temporal Tables
+- Ledger
+- criptografia
+- mascaramento de dados
 
-------------------------------------------------------------------------
+---
 
 # 🚀 Conclusão
 
