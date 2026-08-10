@@ -1,251 +1,187 @@
 # 🧠 SQL Server Expert Portfolio
 
+<div align="center">
+
+## Administração de Banco de Dados • SQL Server • T-SQL • Infraestrutura
+
+Portfólio prático desenvolvido durante a trilha **SQL Server On-Premise**, com foco em Administração de Banco de Dados, Alta Disponibilidade, Performance e Infraestrutura SQL Server.
+
+![SQL Server](https://img.shields.io/badge/SQL%20Server-Expert-red?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![T-SQL](https://img.shields.io/badge/T--SQL-Advanced-blue?style=for-the-badge)
+![DBA](https://img.shields.io/badge/DBA-Júnior-success?style=for-the-badge)
+![High Availability](https://img.shields.io/badge/High%20Availability-Always%20On-orange?style=for-the-badge)
+![Status](https://img.shields.io/badge/Trilha-11%20Módulos%20Concluídos-brightgreen?style=for-the-badge)
+
+</div>
+
 ---
 
-# 📌 Sobre o Projeto
+## 📌 Sobre o projeto
 
-Este repositório documenta minha jornada prática de estudos em SQL Server com foco em atuação profissional como DBA SQL Server.
+Este repositório documenta minha jornada prática de aprendizado em **Microsoft SQL Server**, reunindo laboratórios, documentação técnica e projetos desenvolvidos ao longo da trilha **SQL Server Expert**.
 
-O conteúdo foi desenvolvido com base na trilha:
+O objetivo é construir um portfólio voltado para atuação como:
 
-```text
-Comunidade SQL Server Expert
-→ Trilha SQL Server On-Premise
-```
+- 🗄️ DBA SQL Server Júnior
+- 📊 Analista de Banco de Dados
+- ⚙️ Analista de Infraestrutura de Dados
+- 📈 Analista de Dados com foco em SQL Server
 
-O objetivo do projeto é construir um portfólio técnico estruturado, organizado por módulos, demonstrando evolução prática em:
+Diferente de um repositório de exercícios SQL, este projeto reúne **administração, infraestrutura, segurança, monitoramento, alta disponibilidade e automação**.
 
-- Administração de Banco de Dados
-- Backup e Recovery
-- Troubleshooting
-- Monitoramento
+---
+
+## 🎯 Objetivos da trilha
+
+- Administração de bancos SQL Server
+- Infraestrutura de banco de dados
+- Backup e Recuperação
 - Segurança
-- Alta Disponibilidade
-- Performance
-- Disaster Recovery
-
-Cada módulo contém:
-
-- README técnico
-- Queries utilizadas nas aulas
-- Evidências práticas
-- Explicações conceituais
-- Aplicações reais no contexto DBA
+- Performance e Monitoramento
+- Alta Disponibilidade (HA)
+- Disaster Recovery (DR)
+- Automação com SQL Server Agent
+- Boas práticas de ambientes corporativos
 
 ---
 
-# 🎯 Objetivo Profissional
-
-Este portfólio foi criado com foco em:
-
-- Consolidação prática dos estudos em SQL Server
-- Desenvolvimento profissional para atuação como DBA Júnior
-- Documentação técnica da evolução na trilha
-- Construção de material para entrevistas e revisão técnica
-- Demonstração prática de conhecimentos em administração de bancos de dados
-
-O projeto foi estruturado para ir além de simples queries SQL, apresentando cenários reais enfrentados por DBAs em ambientes corporativos.
-
----
-
-# 🗂️ Estrutura da Trilha
+# 🗂️ Estrutura dos módulos
 
 | Módulo | Tema | Status |
-|---|---|---|
-| 01 | Infraestrutura de Rede | ✅ Concluído |
-| 02 | Introdução ao SQL Server | ✅ Concluído |
-| 03 | Administrando Bancos de Dados | ✅ Concluído |
-| 04 | Backup e Restore | ✅ Concluído |
-| 05 | Recuperando Banco Corrompido | ✅ Concluído |
-| 06 | Tabelas e Índices | ⏳ Em andamento |
-| 07 | Segurança | ⏳ Pendente |
-| 08 | In-Memory OLTP | ⏳ Pendente |
-| 09 | Automatizando Tarefas | ⏳ Pendente |
-| 10 | Monitorando o SQL Server | ⏳ Pendente |
-| 11 | Controle de Concorrência | ⏳ Pendente |
-| 12 | Alta Disponibilidade | ⏳ Pendente |
-| 13 | Replicação | ⏳ Pendente |
+|---------|------|:---:|
+| 01 | Infraestrutura de Rede | ✅ |
+| 02 | Introdução ao SQL Server | ✅ |
+| 03 | Administração de Bancos de Dados | ✅ |
+| 04 | Backup e Restore | ✅ |
+| 05 | Recuperação de Banco de Dados | ✅ |
+| 06 | Tabelas e Índices | ✅ |
+| 07 | Segurança | ✅ |
+| 08 | In-Memory OLTP | ✅ |
+| 09 | Automação com SQL Server Agent | ✅ |
+| 10 | Concorrência, Blocking e Deadlocks | ✅ |
+| **11** | **Alta Disponibilidade (HA) e Always On** | **✅** |
+| 12 | Replicação | ⏳ |
+
+> **Progresso atual:** **11 de 12 módulos concluídos (92%)**
 
 ---
 
-# 📂 Estrutura do Repositório
+# 📂 Estrutura do projeto
 
-```bash
+```text
 sql-server-expert-portfolio/
 │
 ├── modulo-01-infraestrutura-rede/
 ├── modulo-02-introducao-sql-server/
 ├── modulo-03-administrando-bancos/
 ├── modulo-04-backup-restore/
-├── modulo-05-recuperando-banco-corrompido/
+├── modulo-05-recuperacao-banco/
 ├── modulo-06-tabelas-indices/
 ├── modulo-07-seguranca/
 ├── modulo-08-in-memory-oltp/
 ├── modulo-09-automatizando-tarefas/
-├── modulo-10-monitorando-sql-server/
-├── modulo-11-controle-concorrencia/
-├── modulo-12-alta-disponibilidade/
-├── modulo-13-replicacao/
-│
+├── modulo-10-monitoramento-concorrencia/
+├── modulo-11-alta-disponibilidade/
 └── README.md
 ```
 
 ---
 
-# 🔥 Módulos Concluídos
+# 🛠️ Tecnologias estudadas
 
-## 📘 Módulo 01 — Infraestrutura de Rede
+### Banco de Dados
 
-Conceitos introdutórios de infraestrutura voltados para ambientes SQL Server On-Premise.
+- Microsoft SQL Server
+- SQL Server Management Studio (SSMS)
+- T-SQL
 
-### Principais tópicos:
-- Redes
-- Comunicação entre servidores
-- Conceitos de infraestrutura
-- Fundamentos para ambientes corporativos
+### Administração
 
----
-
-## 📘 Módulo 02 — Introdução ao SQL Server
-
-Fundamentos essenciais do SQL Server e linguagem T-SQL.
-
-### Principais tópicos:
-- SQLCMD
-- Linguagem SQL
-- SELECT
-- JOIN
-- Tipos de dados
-- Transactions e Blocking
-- Objetos de programação
-
----
-
-## 📘 Módulo 03 — Administrando Bancos de Dados
-
-Administração prática de bancos SQL Server.
-
-### Principais tópicos:
-- Propriedades de banco
-- SHRINK
-- Movimentação de LOG
-- Instant File Initialization
-- TDE
-- Resource Governor
-
----
-
-## 📘 Módulo 04 — Backup e Restore
-
-Estratégias de backup, restore e recuperação.
-
-### Principais tópicos:
-- Backup FULL
-- Backup diferencial
-- Backup LOG
-- Restore avançado
-- STOPAT
-- Compressão
-- Criptografia
+- SQL Server Agent
+- Backup & Restore
 - Recovery Models
+- Database Mirroring
+- Log Shipping
+- Always On Availability Groups
+- Windows Failover Cluster
 
----
+### Monitoramento
 
-## 📘 Módulo 05 — Recuperando Banco Corrompido
+- Dynamic Management Views (DMVs)
+- Extended Events
+- SQL Server Profiler
+- Blocking Analysis
+- Deadlock Monitoring
 
-Recuperação avançada e troubleshooting no SQL Server.
+### Infraestrutura
 
-### Principais tópicos:
-- DBCC CHECKDB
-- Corrupção de banco
-- suspect_pages
-- Restore de Página
-- Recuperação da MASTER
-- Recuperação da MSDB
-- Recuperação da TEMPDB
-- Recuperação da MODEL
+- Windows Server
+- Redes
+- Storage
+- Alta Disponibilidade
 - Disaster Recovery
 
 ---
 
-# 🧪 Abordagem do Portfólio
+# 🌟 Destaques do portfólio
 
-Este projeto foi estruturado com foco em:
+Este repositório reúne laboratórios práticos sobre:
 
-- Cenários reais de administração de banco de dados
-- Documentação técnica organizada
-- Evolução prática contínua
-- Simulações de operações críticas
-- Estudos aplicados ao contexto profissional DBA
-
-Todos os módulos possuem:
-
-- Explicação conceitual
-- Aplicação prática
-- Evidências visuais
-- Organização por tópicos
-- Queries utilizadas durante os estudos
+- 🔒 Segurança e controle de acesso
+- 💾 Estratégias completas de Backup e Restore
+- ⚙️ Automação com SQL Server Agent
+- 📊 Monitoramento utilizando DMVs
+- 🚧 Blocking e Deadlocks
+- 🚀 Always On Availability Groups
+- 🔄 Log Shipping e Database Mirroring
+- ☁️ Cloud Witness e Failover
 
 ---
 
-# 🚀 Próximos Objetivos
+# 📈 Competências desenvolvidas
 
-Após a conclusão da trilha completa, o objetivo é:
-
-- Revisar todos os módulos
-- Consolidar os conceitos técnicos
-- Criar laboratórios práticos
-- Simular cenários reais de ambiente corporativo
-- Desenvolver troubleshooting avançado
-- Fortalecer preparação para entrevistas DBA
-
-Também está planejada a criação futura de:
-
-```text
-Labs/
-Troubleshooting/
-Simulacoes/
-Casos_Reais/
-```
+- Administração SQL Server
+- T-SQL Avançado
+- Performance e Troubleshooting
+- Backup e Recuperação
+- Segurança
+- Automação
+- Alta Disponibilidade
+- Disaster Recovery
+- Monitoramento de Produção
+- Infraestrutura de Banco de Dados
 
 ---
 
-# 🌍 Diferenciais do Projeto
+# 🚀 Evolução da trilha
 
-Este portfólio busca demonstrar:
-
-- Evolução técnica contínua
-- Organização profissional
-- Conhecimento prático em SQL Server
-- Visão operacional de DBA
-- Troubleshooting e Recovery
-- Administração de ambientes corporativos
-
-O foco principal é transformar estudos em experiência prática documentada.
-
----
-
-# 👨‍💻 Tecnologias Utilizadas
-
-- SQL Server
-- SQL Server Management Studio (SSMS)
-- T-SQL
-- Git
-- GitHub
-- GitHub Desktop
+| Área | Concluído |
+|------|:---:|
+| Infraestrutura | ✅ |
+| Administração | ✅ |
+| Backup & Restore | ✅ |
+| Segurança | ✅ |
+| Automação | ✅ |
+| Concorrência | ✅ |
+| Alta Disponibilidade | ✅ |
+| Replicação | ⏳ |
 
 ---
 
-# 📈 Status Atual
+# 👨‍💻 Autor
 
-```text
-5 módulos concluídos
-Trilha em andamento
-Foco atual: Administração e Recovery no SQL Server
-```
+**Andrey Andrade**
+
+📚 Trilha: **SQL Server Expert — SQL Server On-Premise**
+
+🎯 Objetivo profissional: atuar como **DBA SQL Server** e **Analista de Banco de Dados**, com foco em ambientes corporativos e infraestrutura de dados.
 
 ---
 
-# 📚 Observação
+<div align="center">
 
-Este repositório possui finalidade educacional e de desenvolvimento profissional, sendo utilizado como documentação prática da trilha de estudos em SQL Server.
+### ⭐ Obrigado por visitar meu portfólio!
+
+*Este repositório é atualizado continuamente conforme avanço na trilha SQL Server Expert.*
+
+</div>
